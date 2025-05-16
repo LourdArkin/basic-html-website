@@ -5,5 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <nav>
+        <a href="homepage.html" target="_blank">Home</a>
+        <a href="projects.html" target="_blank">Projects</a>
+        <a href="articles.html" target="_blank">Articles</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </nav>
+    </header>
+    <br />
+    <h2>Contact Me</h2>
+    <form>
+      <div>
+        <label for="name">Your name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name here"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Your email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email here"
+        />
+        <p>This will help me respond to your query via email</p>
+      </div>
+      <br />
+      <div>
+        <label for="message">Your message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          placeholder="Enter your message here"
+        ></textarea>
+        <p>Feel free to ask me anything</p>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+      <br>
+      <div>
+        <input type="reset" value="Reset" /></div>
+      </div>
+    </form>
+  </body>
 </html>
